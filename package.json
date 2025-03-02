@@ -1,0 +1,32 @@
+{
+  "name": "oppenheimer-test-suite",
+  "version": "1.0.0",
+  "description": "Automated tests for the Oppenheimer Project using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api/",
+    "test:ui": "playwright test tests/ui/",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "api",
+    "ui"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.35.0",
+    "csv-parse": "^5.6.0",
+    "csv-stringify": "^6.5.2",
+    "mysql2": "^3.6.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.3.0",
+    "moment": "^2.29.4",
+    "path": "^0.12.7"
+  }
+}
