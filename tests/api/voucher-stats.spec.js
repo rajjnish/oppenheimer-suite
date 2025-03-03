@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 const ApiHelper = require('../../utils/helpers/api-helper');
 const ApiPayloads = require('../../fixtures/payloads/api-payloads');
-const Database = require('../../utils/ database');
+const Database = require('../../utils/database');
 
 test.describe('Voucher Statistics API Tests', () => {
     const testHeroes = [];

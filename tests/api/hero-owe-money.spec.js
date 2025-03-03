@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const ApiHelper = require('../../utils/helpers/api-helper');
-const Database = require('../../utils/ database');
+const Database = require('../../utils/database');
 
 test.describe('Hero Owe Money API Tests', () => {
     test.beforeAll(async () => {

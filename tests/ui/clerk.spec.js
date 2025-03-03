@@ -5,7 +5,7 @@ const LoginPage = require('../../utils/pages/login-page');
 const ClerkDashboard = require('../../utils/pages/clerk-dashboard');
 const FileHelper = require('../../utils/helpers/file-helper');
 const HeroTemplates = require('../../fixtures/test-data/hero-templates');
-const Database = require('../../utils/ database');
+const Database = require('../../utils/database');
 
 test.describe('Clerk UI Tests', () => {
     const validCsvPath = path.join(__dirname, '..', '..', 'fixtures', 'test-data', 'valid-heroes.csv');

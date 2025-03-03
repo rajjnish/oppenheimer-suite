@@ -4,3 +4,5 @@
 .env.*.local
 node_modules/
 *.jar
+.idea/
+test-results/

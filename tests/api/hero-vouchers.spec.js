@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 const ApiHelper = require('../../utils/helpers/api-helper');
 const ApiPayloads = require('../../fixtures/payloads/api-payloads');
-const Database = require('../../utils/ database');
+const Database = require('../../utils/database');
 
 test.describe('Hero Vouchers API Tests', () => {
     test.beforeAll(async () => {

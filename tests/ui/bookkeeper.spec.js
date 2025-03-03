@@ -5,7 +5,7 @@ const LoginPage = require('../../utils/pages/login-page');
 const BookkeeperDashboard = require('../../utils/pages/bookkeeper-dashboard');
 const ApiHelper = require('../../utils/helpers/api-helper');
 const ApiPayloads = require('../../fixtures/payloads/api-payloads');
-const Database = require('../../utils/ database');
+const Database = require('../../utils/database');
 
 test.describe('Bookkeeper UI Tests', () => {
     const testHeroes = [];
